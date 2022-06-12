@@ -1,0 +1,134 @@
+body {
+    background: linear-gradient(180deg, rgba(5, 255, 192, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 65px auto 58px auto;
+
+    width: 1005px;
+}
+
+.header_box_anchor {
+    display: flex;
+    width: max-content;
+    gap: 48px;
+}
+
+.header_anchor {
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--preto-principal);
+}
+
+.header_box_anchor li:first-child {
+    font-weight: bold;
+    margin: 0 0 0 0;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--verde-principal);
+}
+h1:hover {
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1005px;
+    margin: 0 auto;
+}
+
+.left_main {
+    width: 489px;
+}
+
+h2 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 49px;
+    margin: 0 0 40px 0;
+}
+
+h2 span {
+    font-weight: bold;
+    color: var(--verde-principal);
+}
+
+.left_main p {
+    font-size: 14px;
+    line-height: 28px;
+    color: var(--preto-paragrafo);
+    margin: 0 0 40px 0;
+}
+
+p span {
+    font-weight: bold;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    transition: .3s;
+}
+button:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    
+}
+
+button img {
+    margin: 0 10px 0 0;
+}
+
+.left_button {
+    border: none;
+    border-radius: 4px;
+
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 21px;
+
+    padding: 14px 32px 15px;
+    background-color: var(--verde-botao);
+
+    color: var(--branco-botao);
+}
+
+.right_main {
+    margin: 0 0 85px 0;
+    transition: .3s;
+}
+.right_main:hover {
+    transform: scale(1.01);
+}
+
+footer {
+    width: 592px;
+    text-align: center;
+    margin: 0 auto;
+}
+footer p {
+    color: var(--preto-principal);
+}
+footer p a {
+    color: var(--preto-principal);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer_balls {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
